@@ -20,6 +20,9 @@ border: none;
       background-color: rgb(42, 42, 42);
     
 }
+img{
+    width: 100%;
+}
 
 
 button,cursor,label,select,.submit{
@@ -417,9 +420,7 @@ transition: 0.3s;
  
 
 }
-.nether{
-    
-}
+
 
 
 
