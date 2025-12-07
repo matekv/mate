@@ -16,7 +16,7 @@ border: none;
     background-image: url(https://cdn.wallpapersafari.com/97/26/VqcKAx.jpg);
 
     background-repeat: no-repeat;
-    min-width: 400vh;
+    height: 400vh;
       background-color: rgb(42, 42, 42);
     
 }
@@ -239,7 +239,7 @@ color: rgb(255, 255, 255);
 }
 .imgster img{
     
-
+    
     border-radius: 50%;
   
  
