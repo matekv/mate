@@ -371,6 +371,7 @@ transition: 0.3s;
 
 .spage{
    
+   
 
        background-image: url(https://www.hdwallpapers.in/download/brown_and_green_square_4k_hd_abstract-2560x1440.jpg);
 
@@ -386,12 +387,12 @@ transition: 0.3s;
 .stxt{display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 500px;
+    max-width: 800px;
      background: rgba(0, 0, 0, 0.5);
-     padding: 5px;
+     padding: 10px;
 }
 .stxt p{color: rgb(34, 181, 34);
-    font-size: 28px;
+    font-size: 25px;
 }
 .stxt h1{color: rgb(34, 181, 34);
     font-size: 48px;
