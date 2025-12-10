@@ -5,11 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft</title>
    <link rel="stylesheet" href="style.css">
+
+
+       <meta charset="UTF-8">
+
+    <!-- საიტის რესპონსიულობისთვის(სხვადასხვა ეკრანის ზომაზე მოსარგებად) საჭირო მეტა თეგი -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/style.min.css">
+
+    <!-- ბრაუზერის ტაბში საიტის სახელი და ლოგო -->
+    <link rel="icon" href="data:image/jpeg;base64,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">
+    <title>minecraft</title>
+
+
+    <!-- საიტის აღწერა -->
+    <meta name="description" content="This is page is about minecraft  what is minecraft and you can purchase minecraft game from here">
+    <!-- საძიებო სიტყვები -->
+    <meta name="keywords" content="minecraft, minecraft purchase, minecraft about.">
+
+    <!-- Location-Specific Keywords -->
+    <meta name="keywords" content="Tbilisi Photo Studio, Georgia Photography, Tbilisi Photography">
+
+    <!-- Photography Services Keywords -->
+    <meta name="keywords" content="minecraft, minecraft download, minecraft purchase, about minecraft, minecraft wiki, minecraft main, minecraft contact">
+
+    <!-- Contact Information Keywords -->
+    <meta name="keywords" content="https://help.minecraft.net/hc/en-us/articles/19506833026829-Who-to-Contact-with-Your-Minecraft-Support-Question">
+
+    <!-- Social Media Keywords -->
+    <meta name="keywords" content="@Minecraft">
+
+    <!-- Additional Keywords -->
+    <meta name="keywords" content="blockgame, exploring, creating, survival game, survival, mining, mobs, adventure.">
+
+    <meta name="robots" content="index,follow"> <!-- Default behavior -->
+
+    <!-- საძიებო ლინკი -->
+    <link rel="canonical" href="http://127.0.0.1:5500/index.html">
+
+    <!--  ავტორი -->
+    <meta name="author" content="Mate kvahantiradze">
+
+
+    <!--  ლინკის სოციალურ ქსელებში გაზიარებისას სათაურის სურათი და აღწერა -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="minecraft">
+    <meta property="og:description" content="This is page is about minecraft  what is minecraft and you can purchase minecraft game from here">
+    <meta property="og:image" content="imgs/meta-img.png">
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html">
+
+    <meta http-equiv="content-language" content="en-us">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 </head>
-<body class="spage">
+<body class="tpage">
      <header>
      <nav class="support">
-        <a href="https://www.minecraft.net/en-us"><p>Main</p></a>
+        
+        <a href="index.html"><p>Main</p></a>
+        <a href="gameplay.html" class="gameplayer"><p>Gameplay</p></a>
         <a href="https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc?tabs=%7B%22details%22%3A0%7D"><p>Purchase</p></a>
         <a href="https://help.minecraft.net/hc/en-us/articles/19506833026829-Who-to-Contact-with-Your-Minecraft-Support-Questions"><p>Contact</p></a>
      </nav>
@@ -37,5 +93,75 @@
      </nav>
      
     </header>
+    <section class="brochacho">
+       
+        <div class="brotato">
+<h1 class="broh1">Markus Persson (Notch)</h1>
+<p class="brop">Persson began developing video games at an early age. His commercial success 
+        began after he published an early version of Minecraft in 2009. Prior to
+         the game's official retail release in 2011, it had sold over four million 
+         copies. After this point Persson stood down as the lead designer and transferred   
+         his creative authority to Jens Bergensten. In September 2014 Persson announced
+          on his personal website that he had concluded he "[didn't have the connection
+           to his fans he thought he had]", that he had "become a symbol", and that he          
+           did not wish to be responsible for Mojang's increasingly large operation. He
+            left Mojang in November of that year, selling his company to Microsoft repo
+            rtedly for US$2.5 billion, which made him a billionaire.</p></div>
+             <div class="broim">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/5c7227ada7ea4310004351c2/0x0.jpg?format=jpg&crop=1782,1783,x680,y560,safe&height=416&width=416&fit=bounds" alt="">
+        </div>
+
+    </section>
+        </section><div class="magaricontaineri">
+<section class="form">
+        <section class="tsiscont">
+        <div class="yeho">
+              <nav class="support1">
+        <a href="https://www.minecraft.net/en-us"><p>Main</p></a>
+        <a href="https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc?tabs=%7B%22details%22%3A0%7D"><p>Purchase</p></a>
+        <a href="https://help.minecraft.net/hc/en-us/articles/19506833026829-Who-to-Contact-with-Your-Minecraft-Support-Questions"><p>Contact</p></a>
+     </nav>
+        <nav class="social1">
+        <a href="https://www.instagram.com/minecraft/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="60" viewBox="0,0,256,256">
+<g fill="white" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.17,0 -13,5.83 -13,13v18c0,7.17 5.83,13 13,13h18c7.17,0 13,-5.83 13,-13v-18c0,-7.17 -5.83,-13 -13,-13zM37,11c1.1,0 2,0.9 2,2c0,1.1 -0.9,2 -2,2c-1.1,0 -2,-0.9 -2,-2c0,-1.1 0.9,-2 2,-2zM25,14c6.07,0 11,4.93 11,11c0,6.07 -4.93,11 -11,11c-6.07,0 -11,-4.93 -11,-11c0,-6.07 4.93,-11 11,-11zM25,16c-4.96,0 -9,4.04 -9,9c0,4.96 4.04,9 9,9c4.96,0 9,-4.04 9,-9c0,-4.96 -4.04,-9 -9,-9z"></path></g></g>
+</svg></a>
+        <a href="https://www.facebook.com/minecraft/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="60" viewBox="0,0,256,256">
+<g fill="white" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M24,4h-18c-1.105,0 -2,0.895 -2,2v18c0,1.105 0.895,2 2,2h10v-9h-3v-3h3v-1.611c0,-3.05 1.486,-4.389 4.021,-4.389c1.214,0 1.856,0.09 2.16,0.131v2.869h-1.729c-1.076,0 -1.452,0.568 -1.452,1.718v1.282h3.154l-0.428,3h-2.726v9h5c1.105,0 2,-0.895 2,-2v-18c0,-1.105 -0.896,-2 -2,-2z"></path></g></g>
+</svg></a>
+        <a href="https://x.com/Minecraft"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="60" viewBox="0,0,256,256">
+<g fill="white" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M26.37,26l-8.795,-12.822l0.015,0.012l7.93,-9.19h-2.65l-6.46,7.48l-5.13,-7.48h-6.95l8.211,11.971l-0.001,-0.001l-8.66,10.03h2.65l7.182,-8.322l5.708,8.322zM10.23,6l12.34,18h-2.1l-12.35,-18z"></path></g></g>
+</svg></a>
+        <a href="https://www.youtube.com/Minecraft"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="60" viewBox="0,0,256,256">
+<g fill="white" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M15,4c-4.186,0 -9.61914,1.04883 -9.61914,1.04883l-0.01367,0.01563c-1.90652,0.30491 -3.36719,1.94317 -3.36719,3.93555v6v0.00195v5.99805v0.00195c0.00384,1.96564 1.4353,3.63719 3.37695,3.94336l0.00391,0.00586c0,0 5.43314,1.05078 9.61914,1.05078c4.186,0 9.61914,-1.05078 9.61914,-1.05078l0.00195,-0.00195c1.94389,-0.30554 3.37683,-1.97951 3.37891,-3.94727v-0.00195v-5.99805v-0.00195v-6c-0.00288,-1.96638 -1.43457,-3.63903 -3.37695,-3.94531l-0.00391,-0.00586c0,0 -5.43314,-1.04883 -9.61914,-1.04883zM12,10.39844l8,4.60156l-8,4.60156z"></path></g></g>
+</svg></a>
+     </nav>
+   
+       
+
+      </div><div class="farmer"><form action="">
+        <h1>Stay Updated with the Latest</h1><br>
+       <label for="username">Email:</label><br>
+  <input type="text" id="Email" name="Email" required=""><br>
+  <label for="username">First name:</label><br>
+  <input type="text" id="Fname" name="Fname" required=""><br>
+  <label for="username">Last name:</label><br>
+  <input type="text" id="Lname" name="Lname" required=""><br>
+  <label for="username">Password:</label><br>
+  <input type="text" id="Password" name="Password" required=""><br>
+          <input type="submit" class="submit"><br>
+            </form>
+        </div>
+      
+
+            
+
+
+
+<div class="gc">
+<a href="gameplay.html"><p>gameplay</p></a>
+<a href="creator.html"><p>Creator</p></a>
+</div>
+</section>
+</section></div>
 </body>
 </html>

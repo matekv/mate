@@ -342,6 +342,9 @@ transition: 0.3s;
 
     
 }
+.magaricontaineri{
+    margin-top: 12%;
+}
 
 
 
@@ -372,7 +375,7 @@ transition: 0.3s;
 .spage{
    
    
-
+      background-color: rgb(42, 42, 42);
        background-image: url(https://www.hdwallpapers.in/download/brown_and_green_square_4k_hd_abstract-2560x1440.jpg);
 
     background-repeat: no-repeat;
@@ -422,12 +425,66 @@ transition: 0.3s;
 
 
 
+/*---------------------------------------------------------------------------- tpage---------------------------------------------------------------------------------- */
+
+
+.tpage{
+    background-repeat: no-repeat;
+    background-image: url(https://wallpapercave.com/wp/wp8643134.jpg);
+}
 
 
 
 
 
+.brochacho{display: flex;
+    justify-content: center;
+    align-items: center;
 
+    gap: 40px;
+        margin-top: 360px;
+}
+.brotato{display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 800px;
+     padding: 10px;
+       background: rgba(0, 0, 0, 0.5);
+}
+.brotato p{color: rgb(34, 181, 34);
+  
+    font-size: 25px;
+}
+.brotato h1{color: rgb(34, 181, 34);
+    font-size: 48px;
+}
+.broim img{border: 2px solid black;
+border-radius: 8px;
+
+
+}
+
+
+.gameplayer{
+    
+    color: rgb(7, 197, 0);
+    font-size: 35px;
+}
+.gameplayer:hover{
+    
+
+color:rgb(41, 255, 41);
+transition: 0.3s;
+
+}
+
+@media only screen and (max-width: 1500px) {
+.brochacho{
+    flex-direction: column;
+}
+ 
+
+}
 
 
 
