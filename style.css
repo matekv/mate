@@ -159,31 +159,36 @@ font-size: 30px;
 }
 @media only screen and (max-width: 1500px) {
     .support{
-        display: none;
-    }
-    .hamburger{
-        display: block;
-    }
-    .deskcont{
-        grid-template-columns: 1fr;
-    }
- 
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: -100vw;
+        background: rgba(238, 238, 238, 0.443);
+        backdrop-filter: blur(12px);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-}
-@media only screen and (max-width: 1200px) {
-    .support{
-        display: none;
     }
     .social{
         display: none;
     }
-    .hamburger{
-        display: block;
+    .hamburger{display: block;
+        z-index: 999;
+    }
+    .deskcont{
+        grid-template-columns: 1fr;
     }
 
+header h1{
+    z-index: 999;
+} 
+
 }
+
 .second{
-   height: 100vh;
+   height: 120vh;
     background-image: url(https://cdn.wallpapersafari.com/84/68/xKO8X7.jpg);
     background-size: cover;
     padding: 7%;
@@ -497,15 +502,44 @@ transition: 0.3s;
 }
 
 
+.openedNav{
+    left: 0;
+    transition: 0.3s;
+}
+
+
+.apibody{
+    background-image: url(https://www.gamespot.com/a/uploads/original/1603/16030002/3863034-gamespot-minecraft-eroded-badlands.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.containerapi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.apinster{
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    margin: 10px;
+    color: gold;
+}
 
 
 
 
 
 
-
-
-
-
-
+@media only screen and (max-width: 1500px) {
+.containerapi{
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
+@media only screen and (max-width: 900px) {
+.containerapi{
+grid-template-columns: 1fr 1fr;
+}
+}
 
